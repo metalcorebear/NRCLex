@@ -11,7 +11,7 @@ with open("README.md", "r") as fh:
 setuptools.setup(
     name="NRCLex",
     version="0.0.1",
-    author="Mark M. Bailey",
+    author="metalcorebear",
     author_email="mark.mbailey@gmail.com",
     description="An affect generator based on TextBlob and the NRC affect lexicon.  Note that lexicon license is for research purposes only.",
     long_description=long_description,
