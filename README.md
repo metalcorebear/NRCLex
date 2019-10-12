@@ -1,6 +1,6 @@
 # NRCLex
 
-(C) 20219 Mark M. Bailey
+(C) 2019 Mark M. Bailey
 
 ## About
 NRCLex will generate an affect list from a body of text.  Affect dictionary is based on the National Research Council Canada (NRC) affect lexicon (see link below).
