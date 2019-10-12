@@ -10,16 +10,16 @@ Lexicon source is (C) 2016 National Research Council Canada (NRC) and this packa
 ## Affects
 Emotional affects measured include the following:
 
-fear
-anger
-anticipation
-trust
-surprise
-positive
-negative
-sadness
-disgust
-joy
+* fear
+* anger
+* anticipation
+* trust
+* surprise
+* positive
+* negative
+* sadness
+* disgust
+* joy
 
 ## Sample Usage
 
