@@ -2,7 +2,7 @@ import os
 
 __version__ = '0.0.1'
 __license__ = 'MIT'
-__author__ = 'Mark M. Bailey'
+__author__ = 'metalcorebear'
 
 name = "NRCLex"
 
