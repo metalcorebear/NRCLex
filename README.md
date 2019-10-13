@@ -40,6 +40,3 @@ text_object.affect_dict
 
 *#Return affect frequencies.*
 text_object.affect_frequencies
-
-*#Return list of affects for all sentences surrounding a particular target word.*
-text_object.filter_target('target')
