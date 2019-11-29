@@ -32,7 +32,7 @@ Emotional affects measured include the following:
 from nrclex import NRCLex  
 
 
-*#Instantiate text object.*  
+*#Instantiate text object (for best results, 'text' should be unicode).*  
 
 text_object = NRCLex('text')  
 
