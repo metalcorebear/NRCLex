@@ -12,6 +12,10 @@ NLTK data is (C) 2019, NLTK Project.  Source: [NLTK] (https://www.nltk.org/).  R
 ## Update
 * Expanded NRC lexicon from approximately 10,000 words to 27,000 based on WordNet synonyms.
 * Minor bug fixes.
+* Contributor updated NTC library.
+
+## Installation
+`pip install NRCLex`
 
 ## Affects
 Emotional affects measured include the following:
@@ -29,44 +33,44 @@ Emotional affects measured include the following:
 
 ## Sample Usage
 
-from nrclex import NRCLex  
+`from nrclex import NRCLex`<br><br>
 
 
-*#Instantiate text object (for best results, 'text' should be unicode).*  
+*#Instantiate text object (for best results, 'text' should be unicode).*<br>
 
-text_object = NRCLex('text')  
-
-
-*#Return words list.*  
-
-text_object.words  
+`text_object = NRCLex('text')`<br><br>
 
 
-*#Return sentences list.*  
+*#Return words list.*<br>
 
-text_object.sentences  
-
-
-*#Return affect list.*  
-
-text_object.affect_list  
+`text_object.words`<br><br>
 
 
-*#Return affect dictionary.*  
+*#Return sentences list.*<br>
 
-text_object.affect_dict  
-
-
-*#Return raw emotional counts.*  
-
-text_object.raw_emotion_scores  
+`text_object.sentences`<br><br>
 
 
-*#Return highest emotions.*  
+*#Return affect list.*<br>
 
-text_object.top_emotions  
+`text_object.affect_list`<br><br>
 
 
-*#Return affect frequencies.*  
+*#Return affect dictionary.*<br>
 
-text_object.affect_frequencies  
+`text_object.affect_dict`<br><br>
+
+
+*#Return raw emotional counts.*<br>
+
+`text_object.raw_emotion_scores`<br><br>
+
+
+*#Return highest emotions.*<br>
+
+`text_object.top_emotions`<br><br>
+
+
+*#Return affect frequencies.*<br>
+
+`text_object.affect_frequencies`
