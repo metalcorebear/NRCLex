@@ -23,7 +23,7 @@ def build_word_affect(self):
     for word in affect_list:
         affect_frequencies[word] += 1
     sum_values = sum(affect_frequencies.values())
-    affect_percent = {'fear': 0.0, 'anger': 0.0, 'anticip': 0.0, 'trust': 0.0, 'surprise': 0.0, 'positive': 0.0,
+    affect_percent = {'fear': 0.0, 'anger': 0.0, 'anticipation': 0.0, 'trust': 0.0, 'surprise': 0.0, 'positive': 0.0,
                       'negative': 0.0, 'sadness': 0.0, 'disgust': 0.0, 'joy': 0.0}
     for key in affect_frequencies.keys():
         affect_percent.update({key: float(affect_frequencies[key]) / float(sum_values)})
