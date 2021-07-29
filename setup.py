@@ -10,7 +10,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="NRCLex",
-    version="1.0.0",
+    version="1.5.0",
     author="metalcorebear",
     author_email="mark.mbailey@gmail.com",
     description="An affect generator based on TextBlob and the NRC affect lexicon.  Note that lexicon license is for research purposes only.",
@@ -18,7 +18,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/metalcorebear/NRCLex",
     packages=setuptools.find_packages(),
-    install_requires=['textblob', 'collections'],
+    install_requires=['textblob', 'collections', 'json'],
     include_package_data=True,
     py_modules=["nrclex", "__init__"],
     classifiers=[

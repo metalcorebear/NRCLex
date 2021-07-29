@@ -36,9 +36,20 @@ Emotional affects measured include the following:
 `from nrclex import NRCLex`<br><br>
 
 
-*#Instantiate text object (for best results, 'text' should be unicode).*<br>
+*#Instantiate NRCLex object, you can pass your own dictionary filename in json format.*<br>
 
-`text_object = NRCLex('text')`<br><br>
+`text_object = NRCLex(lexicon_file='nrc_en.json')`<br><br>
+
+
+*#You can pass your raw text to this method(for best results, 'text' should be unicode).*<br>
+
+`text_object.load_raw_text(text: str)`<br><br>
+
+
+*#You can pass your already tokenized text as a list of tokens, if you want to use an already tokenized input.
+This usage assumes that the text is correctly tokenized and does not make use of TextBlob.*<br>
+
+`text_object.load_token_list(list_of_tokens: list)`<br><br>
 
 
 *#Return words list.*<br>
