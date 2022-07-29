@@ -10,7 +10,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="NRCLex",
-    version="1.0.0",
+    version="1.6.0",
     author="metalcorebear",
     author_email="mark.mbailey@gmail.com",
     description="An affect generator based on TextBlob and the NRC affect lexicon.  Note that lexicon license is for research purposes only.",

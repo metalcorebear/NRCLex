@@ -2870,7 +2870,7 @@ class NRCLex:
     def __init__(self, text):
         self.text = text
         blob = TextBlob(text)
-        self.words = list(blob.words)
+        self.words = [w.lemmatize() for w in blob.words]
         self.sentences = list(blob.sentences)
         build_word_affect(self)
         top_emotions(self)
@@ -2878,6 +2878,6 @@ class NRCLex:
     def append_text(self, text_add):
         self.text = self.text + ' ' + text_add
         blob = TextBlob(self.text)
-        self.words = list(blob.words)
+        self.words = [w.lemmatize() for w in blob.words]
         self.sentences = list(blob.sentences)
         build_word_affect(self)
