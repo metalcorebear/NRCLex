@@ -18,7 +18,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/riyadhctg/NRCLex",
     packages=setuptools.find_packages(),
-    install_requires=['textblob', 'collections'],
+    install_requires=['textblob'],
     include_package_data=True,
     py_modules=["nrclex", "__init__"],
     classifiers=[
