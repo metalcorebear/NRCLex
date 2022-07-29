@@ -16,7 +16,7 @@ setuptools.setup(
     description="An affect generator based on TextBlob and the NRC affect lexicon.  Note that lexicon license is for research purposes only.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/riyadhctg/NRCLex",
+    url="https://github.com/metalcorebear/NRCLex",
     packages=setuptools.find_packages(),
     install_requires=['textblob'],
     include_package_data=True,
