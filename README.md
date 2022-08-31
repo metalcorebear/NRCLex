@@ -1,6 +1,6 @@
 # NRCLex
 
-(C) 2019 Mark M. Bailey
+(C) 2019 Mark M. Bailey, PhD
 
 ## About
 NRCLex will measure emotional affect from a body of text.  Affect dictionary contains approximately 27,000 words, and is based on the National Research Council Canada (NRC) affect lexicon (see link below) and the NLTK library's WordNet synonym sets.
@@ -10,6 +10,7 @@ Lexicon source is (C) 2016 National Research Council Canada (NRC) and this packa
 NLTK data is (C) 2019, NLTK Project.  Source: [NLTK] (https://www.nltk.org/).  Reference: Bird, Steven, Edward Loper and Ewan Klein (2009), Natural Language Processing with Python. O’Reilly Media Inc.
 
 ## Update
+* Finally got around to cleaning this up a bit.  Updated PyPI package with current version.  Thanks to all the contributors for cleaning up my terrible code!
 * Expanded NRC lexicon from approximately 10,000 words to 27,000 based on WordNet synonyms.
 * Minor bug fixes.
 * Contributor updated NTC library.
