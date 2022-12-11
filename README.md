@@ -33,13 +33,14 @@ Emotional affects measured include the following:
 * joy
 
 ## Sample Usage
+[![](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/metalcorebear/NRCLex/example.ipynb)
 
 `from nrclex import NRCLex`<br><br>
 
 
 *#Instantiate NRCLex object, you can pass your own dictionary filename in json format.*<br>
 
-`text_object = NRCLex(lexicon_file='nrc_en.json')`<br><br>
+`text_object = NRCLex(txt_file='Spanish-NRC-EmoLex.txt')`<br><br>
 
 
 *#You can pass your raw text to this method(for best results, 'text' should be unicode).*<br>

@@ -18,8 +18,8 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/metalcorebear/NRCLex",
     packages=setuptools.find_packages(),
-    install_requires=['textblob', 'collections', 'json'],
-    include_package_data=True,
+    install_requires=['nltk'],
+    include_package_data=False,
     package_data={'': ['nrc_en.json']},
     py_modules=["nrclex"],
     classifiers=[
